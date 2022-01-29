@@ -1,0 +1,3 @@
+# Suicide-Rate
+
+Coso
