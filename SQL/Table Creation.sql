@@ -93,10 +93,6 @@ WITH (
 )
 
  
-CREATE TABLE SuicideGDPSunshine (
 
-Country VARCHAR(100),
-SunshineLevel VARCHAR(100)
-);
 
 
