@@ -23,7 +23,7 @@ With all three datasets ready, they were all loaded into an SQL Sever Database f
 
 ## Exploatory analysis
 
-Pending
+First, the modules geopandas and folium were used to generate an interactive .html map, showing by color the different suicide rates and with the option of hovering over a country to see it's specific value.
 
 ## Regression and classification analysis
 
