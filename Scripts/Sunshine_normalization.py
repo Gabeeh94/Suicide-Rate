@@ -66,7 +66,7 @@ server = 'localhost'  # change this to your db’s IP address
 port = '1433'
 database = 'Suicide_Project' # change this to the name of your db
 username = 'sa' # replace with your username
-password = 'Yajirobe1+' # replace with your password
+password = '' # replace with your password
 version  = '7.3'
 
 #Create string to connect
