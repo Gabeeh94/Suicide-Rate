@@ -21,9 +21,9 @@ Finally, the countries were classified in 4 categories defined by the quartiles 
 
 With all three datasets ready, they were all loaded into an SQL Sever Database for some basic cleaning and reloaded to python using the pyodbc and sqlalchemy modules. To make the regression and classification it was needed that the suicide rate data was joined to the gdp and sunshine one. But the problem was that the countries were not written in the same exact way. So two scripts (Scripts/Matching_GDP and Scripts/Matching_Sunlight) were written that used fuzzy matching (that is, looking for the most likely matches) to join the tables. 
 
-## Exploatory analysis
+## Exploratory analysis
 
-First, the modules geopandas and folium were used to generate an interactive .html map, showing by color the different suicide rates and with the option of hovering over a country to see it's specific value.
+First, the modules geopandas and folium were used to generate an interactive .html map, showing by color the different suicide rates and with the option of hovering over a country to see it's specific value. As Github can't show an .html map in the jupyter notebook, an .html file was generated to be open and show the map.
 
 ## Regression and classification analysis
 
