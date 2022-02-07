@@ -25,6 +25,8 @@ With all three datasets ready, they were all loaded into an SQL Sever Database f
 
 First, the modules geopandas and folium were used to generate an interactive .html map, showing by color the different suicide rates and with the option of hovering over a country to see it's specific value. As Github can't show an .html map in the jupyter notebook, an .html file was generated to be open and show the map.
 
+Then, using the matplotlib module we created a jupyter notebook showing graphs on the relationship between age and sex and the suicide rate
+
 ## Regression and classification analysis
 
 Pending
