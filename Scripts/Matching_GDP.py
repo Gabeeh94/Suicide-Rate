@@ -6,11 +6,10 @@ from fuzzywuzzy import process
 
 def get_row (df_1, df_2, header_1_1, header_1_2,header_2_1, header_2_2, loc_1, loc_2, summary):
     
-    item_1 = df_1.loc[df_1[header_1_1] == loc_1,header_1_2].values
+    item_1 = float(df_1.loc[df_1[header_1_1] == loc_1,header_1_2].values)
               
-    item_2 = df_2.loc[df_2[header_2_1] == loc_2, header_2_2].values
+    item_2 = float(df_2.loc[df_2[header_2_1] == loc_2, header_2_2].values)
 
-    
     row = pd.Series([loc_1, item_1, item_2], index=countries_summary.columns)
     return row
 
@@ -114,7 +113,8 @@ for country in countries_remaining:
         gdp_2019_unmatched.remove(match)
 
 
-        
+# Upload table to SQL database
+countries_summary.to_sql('SuicideGDP', con=engine, index=False)      
     
 
     
