@@ -1,6 +1,6 @@
 # Suicide Rate Analysis using SQL and Python
 
-An analysis of the suicide rate in the world using SQL and Python to clean and extrapolate conclusions from the data including a regression and classification analysis to see if there is a relationship between GDP per Capita or Sunshine level and the suicide rate.
+An analysis of the suicide rate in the world using SQL and Python to clean and extrapolate conclusions from the data including a regression and an ANOVA test to see if there is a relationship between GDP per Capita or Sunshine level and the suicide rate.
 
 ## Data Loading and Cleaning
 
@@ -27,6 +27,7 @@ First, the modules geopandas and folium were used to generate an interactive .ht
 
 Then, using the matplotlib module we created a jupyter notebook showing graphs on the relationship between age and sex and the suicide rate
 
-## Regression and classification analysis
+## Regression and ANOVA test
 
-Pending
+Using the tables uploaded to the SQL server database, a regression using the suicide rate as the dependent variable and the GDP was run. Also an ANOVA test and visualizations were used to se if there was any relationship between the sunshine level and the suicide rate.
+
